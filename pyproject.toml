@@ -1,7 +1,7 @@
 [project]
 name = "upscaler-4k"
 description = ""
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -35,3 +35,5 @@ Icon = ""
 includes = [] 
 # "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
 
+[tool.comfy.node_list]
+Upscaler_4K = "FrameUpscale.py::Upscaler_4K"
