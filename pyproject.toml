@@ -1,7 +1,7 @@
 [project]
-name = "upscaler-4k"
+name = "comfyui-upscaler-4k"
 description = "ComfyUI node that enhances image upscaling quality with an adjustable intensity slider (0-5)"
-version = "1.0.3"
+version = "1.0.4"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -37,5 +37,6 @@ includes = []
 
 [tool.comfy.node_list]
 Upscaler_4K = "FrameUpscale.py::Upscaler_4K"
+
 
 
