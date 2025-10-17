@@ -29,7 +29,7 @@ Documentation = "https://github.com/lonemilk/ComfyUI-Upscaler-4K/wiki"
 "Bug Tracker" = "https://github.com/lonemilk/ComfyUI-Upscaler-4K/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "lonemilk"
 DisplayName = "ComfyUI-Upscaler-4K"
 Icon = ""
 includes = [] 
